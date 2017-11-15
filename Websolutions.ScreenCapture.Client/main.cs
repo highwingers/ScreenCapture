@@ -21,7 +21,7 @@ namespace Websolutions.ScreenCapture.Client
             InitializeComponent();
             ghk = new Hotkeys.GlobalHotkey(Constants.ALT , Keys.P, this);
         }
-        // this is ON CLICK event off HOTKEY.
+        // this is ON CLICK event off HOTKEY
         private void HandleHotkey()
         {
             WriteLine("Hotkey pressed!");
